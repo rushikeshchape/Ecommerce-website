@@ -1,0 +1,207 @@
+/* @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap'); */
+@font-face {
+    font-family: spartan;
+    src: url("font\LeagueSpartan-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan', sans-serif;
+    
+    
+}
+.headbar{
+   
+    height: 45px;
+    background-color: #444;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.logoutbtn button{
+    background: linear-gradient(135deg, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);;
+    padding: 10px;
+    width: 200px;
+    height: 90%;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    left: 1013px;
+    cursor: pointer;
+    
+}
+.logoutbtn button:hover{
+    padding-right: 30px;
+    transition: all 0.5s;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f5f5f5;
+    z-index: 9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav{
+    
+    display: flex;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+   
+}
+.nav-img{
+    position: relative;
+    left: 100px;
+}
+.brand-logo{
+    height: 60px;
+    position: relative;
+    left: 17px;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 500px;
+    display: flex;
+    position: relative;
+    left: 76px;
+}
+
+.search-box{
+    width: 60%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d1d1d1;
+    text-transform: capitalize;
+    background: none;
+    color: #ffffff;
+    outline:none;
+}
+
+.search-btn{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #383838;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.search-box::placeholder{
+    color: #f1e9e9;
+}
+
+.nav-items a{
+    margin-left: 20px;
+  
+}
+
+.nav-items a img{
+    width: 30px;
+}
+.links-container{
+    width: 100%;
+    display: flex;
+ 
+    justify-content: center;
+    list-style: none;
+    position: relative;
+    left: 153px;
+    align-items: center;
+}
+
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #383838;
+    opacity: 0.5;
+    transition: .5s;
+}
+.link-div{
+    position: relative;
+    left: -62px;
+    font-size: 22px;
+}
+
+.link:hover{
+    opacity: 1;
+}
+.featurehead,.collectionhead{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: linear-gradient(240deg, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.product-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.productimg{
+    height: 300px;
+     width:193px;
+}
+.addtocart{
+    border-radius: 1px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.collection-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+    
+}
+.collection{
+    position: relative;
+}
+.collection img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.collection p{
+    text-decoration: inherit;
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize; 
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px ;  
+}
+.collection:nth-child(3){
+    grid-column: span 2;
+    margin-bottom: 10px;
+
+}

@@ -1,0 +1,16 @@
+@import 'nav.css';
+@import 'slides.css';
+@import 'product.css';
+@import 'footer.css';
+@import 'card.css';
+@import 'men.css';
+@import 'women.css';
+@import 'accessories.css';
+@import 'pro_detail.css';
+@import 'profile.css';
+@import 'feedback.css';
+@font-face {
+    font-family: spartan;
+    src: url("font\LeagueSpartan-Bold.ttf");
+}
+
